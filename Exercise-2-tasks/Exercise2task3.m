@@ -1,3 +1,6 @@
+% EXERCISE 2 TASK 3: QUESTION: Repeat Task 2 by using Newton’s method.
+
+ %CODE
 x0 = 1.2;
 xs = [x0,];
 counter = 1; precdps = 8;
