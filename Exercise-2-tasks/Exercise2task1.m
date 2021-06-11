@@ -28,6 +28,6 @@ if outs < 0
   disp(["Precision: (",num2str(precdps),"dps)"]) 
   disp(["Iterations: ",num2str(counter),'  ',"Root: ",num2str(root(counter))])
   disp(["f(",num2str(root(counter)),") = ",num2str(funtask1(root(counter)))," approximately = 0"])
-  else
+else
   disp("Root doesn't exist.! Retry another interval")
 end
