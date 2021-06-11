@@ -1,3 +1,6 @@
+% EXERCISE 2 TASK 4 (a): QUESTION: Write a MATLAB function with appropriate inputs to implement the Regular Falsi method. Test your function using a problem in Task 1 when the interval containing the roots (a) is given
+
+% CODE
 format long
 x0 = 1;
 xi = 2;
