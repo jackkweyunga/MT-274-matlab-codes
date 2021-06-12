@@ -16,6 +16,6 @@ while true
     endif
     iter ++;
 end   
-disp(["Precision: (",num2str(precdps),"dps)"]) 
-disp(["Iterations: ",num2str(counter),'  ',"Root: ",num2str(root(counter))])
-disp(["f(",num2str(root(counter)),") = ",num2str(funtask1(root(counter)))," approximately = 0"])
+fprintf("Precision: %i (dps) Iterations: %i   Root: %i\n",precdps,counter,root(counter))
+fprintf("f(%i) = %i approximately = 0\n",root(counter),funtask1(root(counter)))
+  
